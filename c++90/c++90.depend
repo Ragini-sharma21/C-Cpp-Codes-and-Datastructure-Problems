@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1628413937 source:c:\users\dell\desktop\github\c++90\main.cpp
+	<iostream>
+	<queue>
+
