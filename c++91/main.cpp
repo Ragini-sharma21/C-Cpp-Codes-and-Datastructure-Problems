@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //flatten binary tree into linked list
 
 using namespace std;
 struct Node{
