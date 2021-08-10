@@ -1,5 +1,5 @@
 #include <iostream>  //all nodes at distance k
-// output not correct
+
 
 using namespace std;
 struct Node{
