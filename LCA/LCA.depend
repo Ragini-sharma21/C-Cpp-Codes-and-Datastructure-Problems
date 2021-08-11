@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1628709927 source:c:\users\dell\desktop\github\lca\main.cpp
+	<iostream>
+	<vector>
+
