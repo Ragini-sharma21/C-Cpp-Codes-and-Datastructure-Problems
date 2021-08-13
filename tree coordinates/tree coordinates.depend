@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1628870340 source:c:\users\dell\desktop\github\tree coordinates\main.cpp
+	<iostream>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<set>
+	<bitset>
+	<map>
+	<deque>
+	<string>
+	<algorithm>
+	<numeric>
+	<cstdio>
+	<cassert>
+	<cstdlib>
+	<cstring>
+	<ctime>
+	<cmath>
+
