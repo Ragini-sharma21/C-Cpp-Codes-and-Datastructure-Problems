@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1629044972 source:c:\users\dell\desktop\github\kitty calculation on tree\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<cstring>
+	<utility>
+
