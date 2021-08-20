@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1629467928 source:c:\users\dell\desktop\github\arrays and simple queries\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
