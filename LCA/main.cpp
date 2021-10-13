@@ -10,7 +10,7 @@ data=val;
 left=NULL;
 right=NULL;
 }};
-bool findpath(Node*root,int key,vector<int> &path){
+bool findpath(Node*root,int key,vector<int> &path){  //TO find is there any path exist between root and node
 if(root==NULL){
     return false;
 }

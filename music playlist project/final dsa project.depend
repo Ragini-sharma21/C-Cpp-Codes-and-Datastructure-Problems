@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1630591008 source:c:\users\dell\desktop\github\final dsa project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
