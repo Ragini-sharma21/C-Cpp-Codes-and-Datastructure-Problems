@@ -1,9 +1,17 @@
-#include <iostream>
-
-using namespace std;
-
-int main()
+DoublyLinkedListNode* reverse(DoublyLinkedListNode* head) {
+DoublyLinkedListNode *temp = head;
+DoublyLinkedListNode *crnt = head;
+while(crnt!=NULL)
 {
-    cout << "Hello world!" << endl;
-    return 0;
+temp = crnt->prev;
+crnt->prev = crnt->next;
+crnt->next = temp;
+crnt = crnt->prev;
 }
+if(temp!=NULL)
+{
+head = temp->prev;
+}
+return head;
+}
+
