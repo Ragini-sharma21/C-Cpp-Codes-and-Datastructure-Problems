@@ -1,4 +1,4 @@
-#include <cmath>   // cpp node 
+#include <cmath>   // cpp noode of arrays
 #include <cstdio>
 #include <vector>
 #include <iostream>
