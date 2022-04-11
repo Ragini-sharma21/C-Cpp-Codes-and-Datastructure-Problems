@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> template area </title>
+    <style>
+        .container{
+            display:grid;
+            grid-gap:1rem;
+            grid-template-areas:
+            'navbar navbar services '
+            'home home home'
+            'services services home';
+
+
+
+        }
+        .item{
+            background-color:yellow;
+            border:2px solid black;
+        }
+      #navbar{
+          grid-area:navbar;
+
+      }
+      #home{
+          grid-area:home;
+      }
+      #services{
+          grid-area:services;
+
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate. Minus officia obcaecati sapiente provident ratione natus. Laboriosam, consectetur sunt.
+        </div>
+        <div id="services" class="item">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta fuga maxime impedit animi consequatur, voluptate ipsam repellat ab harum. Eius.
+        </div>
+        <div id="home" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni ex dolore, minima esse sed quae facere earum maxime modi.
+        </div>
+    </div>
+</body>
+</html>

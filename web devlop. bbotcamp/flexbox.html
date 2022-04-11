@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container{
+            display:flex;
+            width:100%;
+            height:554px;
+            border:2px solid black;
+            
+            /* flex properties for flex container */
+
+             /* flex-direction: row; // bydefault 
+
+            flex-direction:column; 
+
+            flex-direction:row-reverse;
+
+            flex-direction:column-reverse;*/
+
+              /* flex-wrap:wrap;
+
+              flex-flow:row-reverse wrap;
+
+              justify-content:center;
+
+              justify-content:space-between;
+
+              justify-content:space-evenly;
+
+              justify-content:space-around;
+
+              align-items:centre;
+
+              align-items:flex-start;
+
+              align-items:flex-end;
+
+              align-items:stretch;*/}
+        .box{
+            border:2px solid green;
+            padding:3px;
+            margin:10px;
+            background-color:brown;
+            width:200px;
+            height:200px;
+        }
+        #box1{
+            /* order:2;
+            flex-grow:3; 
+            flex-shrink:3;
+            flex-basis:320px;
+            flex:2 2 344px;
+            */}
+
+        
+        #box2{
+            /* order:5;
+            flex-grow:2; */
+
+        }
+        #box3{
+            /* align-self:flex-start;
+            align-self:flex-end;
+            align-self:flex-center; */
+
+            }
+        
+
+    </style>
+</head>
+<body>
+    <h3> This is flexbox</h3>
+    <div class="container">
+        <div class="box" id="box1">First Box</div>
+        <div class="box" id="box2">Second Box</div>
+        <div class="box" id="box3">Third Box</div>
+        <div class="box" id="box4">Fourth Box</div>
+        <div class="box" id="box5">Fifth Box</div>
+        <div class="box" id="box6">Sixth Box</div>
+    </div>
+</body>
+</html>

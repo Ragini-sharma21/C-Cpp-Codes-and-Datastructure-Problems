@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+.class{
+    color:white;
+    background-color:brown;
+    font-size:32px;
+    display:none;
+
+}
+@media (max-width:500px){
+    #class1{
+        display:block;
+        background-color:pink;
+    }
+}
+@media (min-width:300px) and (max-width:500px){
+    #class2{
+        display:block;
+        background-color:green;
+    }
+}
+        @media(min-width:500px) and (max-width:800px){
+            #class3{
+                display:block;
+                background-color:yellow;
+
+            }
+
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="class" id="class1">this is laptop</div>
+    <div class="class" id="class2">this is tab</div>
+    <div class="class" id="class3">this is ipad</div>
+    <div class="class" id="class4">this is computer</div>
+    
+</body>
+</html>

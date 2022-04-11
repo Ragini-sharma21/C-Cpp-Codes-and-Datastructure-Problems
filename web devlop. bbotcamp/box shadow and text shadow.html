@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow </title>
+    <style>
+        .container{
+            display:flex;
+        }
+        .item{
+            background-color:coral;
+            margin:23px 12px;
+            padding: 23px 12px;
+            /* border:2px solid red; */
+            box-shadow:10px 13px green;  /*x-offset y-offset*/
+             box-shadow:10px 13px 10px green; /*blur radius of shadow*/
+             box-shadow:10px 13px 10px 34px green; /*spread radius of shadow*/
+             box-shadow:10px 13px 10px 34px rgba(71, 172,172, 0.8);
+        }
+        .item h2{s
+             text-shadow:2px 3px 6px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item-1"><h2>this is c++ course</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus laudantium dolorum eveniet iure, amet aperiam? Voluptatem hic ducimus vel labore veniam neque explicabo soluta, eius qui quae quo? Odit, nihil.</p>
+    </div>
+        <div class="item" id="item-2"><h2>this is webd course</h2> 
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloribus perspiciatis similique aliquam laudantium quibusdam autem, a laborum aut esse culpa, distinctio laboriosam accusamus rerum, velit quidem fugit asperiores nihil.</p>
+        </div>
+        <div class="item" id="item-3"><h2>this is C course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, obcaecati! At, unde recusandae beatae ducimus quae enim laborum necessitatibus itaque iusto molestiae sapiente praesentium similique numquam sint placeat, aliquam aperiam?</p>
+        </div>
+    </div>
+</body>
+</html>
