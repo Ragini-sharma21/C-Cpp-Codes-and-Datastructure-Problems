@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scope and conditional</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+            <li>item-4</li>
+            <li>item-5</li>
+            <li>item-6</li>
+            <li>item-7</li>
+            <li>item-8</li>
+            <li>item-9</li>
+        </ul>
+        </ul>
+    </div>
+    <script>
+        var a="this is me";
+        var a="hey there";
+        console.log(a);
+        let b="dance";
+        {
+            let b="sing"
+            console.log(b);
+        }
+        console.log(b);
+        const c="win";
+        // c="swim";     // this will show error//
+        let age=34;
+        if(age<18){
+        console.log("you cannot drink");}
+        else if(age==2){
+            console.log("you can drink water");}
+            else{
+                console.log("you can drink colddrink");
+            }
+        
+        const cups=41;
+        switch(cups){
+            case 3:
+                console.log("the value of cup is 3");
+                break;
+                case 8:
+                    console.log("the value of cup is 8");
+                    break;
+                    case 15:
+                        console.log("the value of cup is 15");
+                        break;
+                        default:
+                            console.log("no match");
+                            break;
+                        
+        }
+    </script>
+</body>
+</html>

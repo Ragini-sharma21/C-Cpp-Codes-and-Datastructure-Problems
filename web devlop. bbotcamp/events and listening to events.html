@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<style>
+    #btn{
+        border: 2px solid black;
+        background-color:red;
+        color:white;
+        border-radius: 7px;
+        cursor: pointer;
+        padding: 10px 14px;
+
+    }
+</style>
+<body>
+    <div class= "container">
+        <h1>this is heading</h1>
+        <p id= "para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, aperiam alias aliquam iure distinctio error laborum facilis, earum natus expedita, repellendus harum ad rem dignissimos aspernatur nulla reprehenderit at. Ex nobis fugit nulla sit deleniti totam doloremque? Autem dolore numquam amet voluptatibus iusto, deserunt facilis animi unde laudantium praesentium vitae enim velit blanditiis pariatur a tenetur incidunt sunt optio fuga! Incidunt sequi est ea quod? Iure ratione repellendus ut molestiae in, odit, dolores, porro laudantium deleniti nostrum vero delectus accusamus quidem deserunt necessitatibus tenetur aliquam. Placeat unde minima accusantium sit dicta dolore, quaerat saepe, rem repudiandae asperiores ullam enim. Quisquam ex, excepturi, cumque praesentium autem officia vero perferendis maiores impedit, dolorum nobis delectus saepe nemo accusamus optio eaque id? Ratione ipsa eveniet voluptas accusantium deleniti possimus ex dignissimos dolores vitae assumenda dolor, repellat aliquam, quo nesciunt corporis illo unde debitis quam cupiditate! Quae exercitationem corporis molestiae repudiandae libero suscipit! Porro veritatis sunt quia, fugiat impedit tenetur alias suscipit iusto hic laudantium voluptatem magnam sequi. Ducimus veniam dicta aliquam ad et ab quidem placeat natus molestias, cupiditate voluptatibus necessitatibus qui accusantium vero ex saepe, provident sequi ullam deserunt similique, suscipit omnis dolore. Minus placeat dolor omnis. Velit deleniti facere magni vitae? In, vero! Est, id facere tempora corrupti voluptatibus tenetur, vel magni praesentium, explicabo ex veritatis officiis ab voluptas rem laudantium modi nesciunt assumenda necessitatibus exercitationem qui sequi iure. Est eum laboriosam doloremque eligendi natus optio officia dolorum reprehenderit expedita blanditiis, a tempore libero excepturi suscipit similique nam, corporis at vitae? Sed reprehenderit natus, facilis sit distinctio assumenda vero maxime esse, vitae, velit ut tempore praesentium perferendis fuga et corrupti. Architecto velit, reprehenderit, molestias ipsa omnis id enim cum dolorem voluptas alias ex dignissimos totam eum ullam consequuntur ratione itaque aspernatur dolore similique consectetur quaerat placeat mollitia! Incidunt doloremque quia nulla aliquam, esse et ex consequatur eligendi sed, itaque accusantium voluptatem animi est architecto magni ipsam explicabo porro maiores. Necessitatibus neque in sint dolor velit aliquam molestias quis ullam, ipsa hic, tenetur aut. Fugiat, quos quisquam ipsum voluptatibus placeat necessitatibus voluptas? Beatae corporis unde nemo numquam voluptatum, rerum odit a eaque aperiam illum amet voluptatem molestias qui tempora repellat laudantium ab natus aut ad, aliquam dolorum? Autem quas nostrum aspernatur minus! Deserunt laborum id tempora rem repellat fuga delectus, ab quam magnam iste cupiditate reiciendis hic voluptatibus natus, expedita unde labore nobis iusto aspernatur autem, aut tempore amet. Assumenda alias facere quaerat temporibus laboriosam rem tempore architecto adipisci illum soluta quidem maiores, deserunt optio sint, accusamus veniam distinctio excepturi quos hic?
+        </p>
+        </div>
+        <button id="btn"  onclick="togglepara()">show/hide</button> 
+        <script>
+            let para= document.getElementById('para');
+            para.addEventListener('mouseout', function run(){
+                // console.log('mouse outside'); 
+                alert('mouse outside')
+            });
+        function togglepara(){
+            
+            let btn= document.getElementById('btn');
+            if(para.style.display !='none'){
+                para.style.display= 'none';        // how to change css
+            }
+            else{
+                para.style.display= 'block';
+            }
+        }
+        </script>
+</body>
+</html>

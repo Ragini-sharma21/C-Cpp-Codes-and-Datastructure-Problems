@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigating DOM</title>
+</head>
+<body>
+    <div id="main" class="container">
+     <ul id="nav">
+         <li>home</li>
+         <li>contact</li>
+         <li>about</li>
+         <li>services</li>
+     </ul>
+
+    </div>
+    <div class="container">
+        another container
+    </div>
+    <script>
+        let nav=document.getElementById('nav');
+        console.log(nav);
+    //    nav.innerHTML="<li>dynamic</li>"
+    let container=document.getElementsByClassName('container');
+    console.log(container);
+    // by using CSS selectors
+    let sel=document.querySelectorAll('#nav>li');
+    console.log("Selector returns",sel);
+    sel[1].innerHTML="dance";
+   
+   </script>
+</body>
+</html>

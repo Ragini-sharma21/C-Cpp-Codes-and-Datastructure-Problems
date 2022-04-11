@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and time</title>
+</head>
+<body>
+    <div class="container">
+        this is a w3ebsite
+        <span id="time"></span>
+    </div>
+</body>
+<script>
+    let dat=new Date();
+    console.log(dat);
+    let date=new Date("2030-09-15");
+    console.log(date);
+
+    // some function
+    let dt=dat.getDate();
+    console.log("the date is",dt);
+    // dat.setDate(13);
+    // console.log(dat);
+    setInterval(updatetime,1000);
+    function updatetime(){
+        time.innerHTML=new Date();
+    }
+</script>
+</html>

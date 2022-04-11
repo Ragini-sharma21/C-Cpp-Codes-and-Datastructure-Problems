@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrows</title>
+</head>
+<body>
+    <div class="container">
+        this is arrows tutorial
+    </div>
+
+</body>
+<script>
+    // function greet(){
+    //     console.log("good morning");
+    // }
+    let greet=()=>console.log("good morning");  //easy way using arrow to declare a function
+    greet();
+
+    let calc=(a,b)=>{
+        console.log("the sum is"+" "+ (a+b));
+    }
+    calc(3,2);
+    setTimeout(()=>{               //function
+        console.log("greetings");
+    },5000);
+
+    let obj={
+        greetings:"good morning",
+        names:["ragini","harry","simran"],
+         speak(){
+             this.names.forEach((student)=>{
+                 console.log(this.greetings+"to each one of u"+ student);
+             });
+
+        }
+    }
+    obj.speak();
+        
+    
+
+</script>
+</html>

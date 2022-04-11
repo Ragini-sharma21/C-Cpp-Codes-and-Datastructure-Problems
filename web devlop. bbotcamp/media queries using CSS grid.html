@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        .container{
+            grid-gap:1rem;
+            display:grid;
+            grid-template-areas:
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer' ;
+        }
+        nav{
+            grid-area: navbar;
+        }
+        section{
+            grid-area: section;
+        }
+        aside{
+            grid-area:aside;
+        }
+        footer{
+            grid-area:footer;
+        }
+        @media only screen and (max-width:300px){
+            body{
+                background-color:pink;
+            }
+        }
+        @media only screen and (min-width:300px) and (max-width:500px){
+            body{
+                background-color:cadetblue;
+            }
+            aside{
+                display:none;
+            }
+        }
+        @media (min-width:500px) and (max-width:800px){
+            body{
+                background-color:chocolate;
+            }
+            .container {
+                grid-template-areas:
+            'navbar navbar section navbar'
+            'section section section section'
+            'navbar section footer footer'
+            'footer footer footer footer' ;
+            }
+        }
+        @media (min-width:800px){
+            body{ 
+            background-color:green;
+        }
+        }
+
+        .bdr{
+            border:2px solid black;
+            background-color:burlywood;
+            padding:23px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="bdr">
+            home about us contact us 
+        </nav>
+        <section class="bdr">
+            <h2>this is css class</h2>
+        </section>
+        <aside class="bdr">
+            <h1>know more about us</h1>
+        </aside>
+    </div>
+    <footer class="bdr">copyright code with ragini</footer>
+</body>
+</html>
