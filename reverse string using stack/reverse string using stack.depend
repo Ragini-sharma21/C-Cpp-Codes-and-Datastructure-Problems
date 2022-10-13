@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1660968331 source:c:\users\dell\desktop\github\reverse string using stack\main.cpp
+	<iostream>
+	<stack>
+

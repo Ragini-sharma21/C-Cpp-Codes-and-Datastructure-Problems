@@ -19,7 +19,7 @@ public:
      node*newnode=new node(val);
     cout<<"Enter the data";
     cin>>val;
-    if(val==-1){
+    if(val==-1){    // when we dont want to add new child node
         return 0;
     }
     newnode->data=val;
