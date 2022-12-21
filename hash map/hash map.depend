@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1671521673 source:c:\users\dell\desktop\github\hash map\main.cpp
+	<iostream>
+	<map>
+	<unordered_map>
+
