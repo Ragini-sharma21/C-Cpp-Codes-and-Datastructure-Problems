@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1672204865 source:c:\users\dell\desktop\github\level order traversal of tree using queue\main.cpp
+	<iostream>
+	<queue>
+
